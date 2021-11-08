@@ -1,0 +1,21 @@
+.header-text {
+  text-align: center;
+}
+
+section {
+  font-family: Arial;
+}
+
+.odd-section {
+  background-color: green;
+  color: white;
+}
+
+ul li:first-child,
+ol li:first-child {
+  color: cyan;
+}
+
+ol li:nth-child(5) {
+  text-decoration: line-through;
+}
